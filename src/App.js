@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import ClassCounterOne from './components/ClassCounterOne';
 import HookCounterOne from './components/HookCounterOne';
 import ClassMouseMove from './components/ClassMouseMove';
-import HookMoseMove from './components/HookMoseMove';
+import HookMouseMove from './components/HookMouseMove';
+import MouseContainer from './components/MouseContainer';
+
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <ClassCounterOne/><br/>
       <HookCounterOne/><br/>
       <ClassMouseMove/><br/>
-      <HookMoseMove/>
+      {/* <HookMouseMove/> */}
+      <MouseContainer/>
     </div>
   );
 }
