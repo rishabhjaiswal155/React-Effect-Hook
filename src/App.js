@@ -9,8 +9,6 @@ import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
 import FetchingIndidvidualPost from './components/FetchingIndidvidualPost';
 import FetchingPostWithButtonClick from './components/FetchingPostWithButtonClick';
-
-
 function App() {
   return (
     <div className="App">
@@ -24,6 +22,8 @@ function App() {
       {/* <DataFetching/> */}
       {/* <FetchingIndidvidualPost/> */}
       <FetchingPostWithButtonClick/>
+
+      
     </div>
   );
 }
