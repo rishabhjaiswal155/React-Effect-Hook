@@ -7,6 +7,7 @@ import MouseContainer from './components/MouseContainer';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
+import FetchingIndidvidualPost from './components/FetchingIndidvidualPost';
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       {/* <MouseContainer/><br/>
       <IntervalClassCounter/><br/>
       <IntervalHookCounter/><br/> */}
-      <DataFetching/>
+      {/* <DataFetching/> */}
+      <FetchingIndidvidualPost/>
     </div>
   );
 }
