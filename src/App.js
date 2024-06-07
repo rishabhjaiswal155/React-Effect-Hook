@@ -8,6 +8,7 @@ import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
 import FetchingIndidvidualPost from './components/FetchingIndidvidualPost';
+import FetchingPostWithButtonClick from './components/FetchingPostWithButtonClick';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       <IntervalClassCounter/><br/>
       <IntervalHookCounter/><br/> */}
       {/* <DataFetching/> */}
-      <FetchingIndidvidualPost/>
+      {/* <FetchingIndidvidualPost/> */}
+      <FetchingPostWithButtonClick/>
     </div>
   );
 }
